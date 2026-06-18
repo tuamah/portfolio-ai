@@ -67,6 +67,29 @@ h2{color:#58a6ff;}
   border-radius:8px;
   font-size:12px;
 }
+
+/* ⭐ Skills styling */
+.skills-container{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.skills-group{
+  padding-bottom:10px;
+  border-bottom:1px solid #1f2937;
+}
+
+.skills-group h3{
+  color:#58a6ff;
+  margin:10px 0;
+  font-size:16px;
+}
+
+.skills-group .badges{
+  display:flex;
+  flex-wrap:wrap;
+}
 </style>
 </head>
 
@@ -95,23 +118,50 @@ h2{color:#58a6ff;}
   </div>
 </div>
 
+<!-- ⭐ SKILLS (FULL + ORGANIZED) -->
 <div class="section" id="skills">
   <h2>Skills</h2>
-<div className="card">
-  <span className="badge">Python</span>
-  <span className="badge">CatBoost</span>
-  <span className="badge">Random Forest</span>
-  <span className="badge">Scikit-learn</span>
-  <span className="badge">OpenCV</span>
-  <span className="badge">OCR</span>
-  <span className="badge">Automation</span>
-  <span className="badge">Agentic AI Workflows</span>
-  <span className="badge">Cloud AI</span>
-  <span className="badge">Google Cloud</span>
-  <span className="badge">Google Colab</span>
-  <span className="badge">Kaggle</span>
-  <span className="badge">Antigravity IDE</span>
-</div>
+
+  <div class="card skills-container">
+
+    <div class="skills-group">
+      <h3>Machine Learning</h3>
+      <div class="badges">
+        <span class="badge">Python</span>
+        <span class="badge">CatBoost</span>
+        <span class="badge">Random Forest</span>
+        <span class="badge">Scikit-learn</span>
+      </div>
+    </div>
+
+    <div class="skills-group">
+      <h3>Computer Vision</h3>
+      <div class="badges">
+        <span class="badge">OpenCV</span>
+        <span class="badge">OCR</span>
+      </div>
+    </div>
+
+    <div class="skills-group">
+      <h3>AI & Automation</h3>
+      <div class="badges">
+        <span class="badge">Automation</span>
+        <span class="badge">Agentic AI Workflows</span>
+        <span class="badge">Cloud AI</span>
+      </div>
+    </div>
+
+    <div class="skills-group">
+      <h3>Cloud & Platforms</h3>
+      <div class="badges">
+        <span class="badge">Google Cloud</span>
+        <span class="badge">Google Colab</span>
+        <span class="badge">Kaggle</span>
+        <span class="badge">Antigravity IDE</span>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 <div class="section" id="projects">
@@ -128,7 +178,7 @@ h2{color:#58a6ff;}
 <div class="section" id="contact">
   <h2>Contact</h2>
   <div class="card">
-    <p>Email: t.ft749@gmail.com</p>
+    <p>Email: tuama_2002@yahoo.com</p>
     <p>GitHub: github.com/tuamah</p>
     <p>LinkedIn: linkedin.com/in/tuamah</p>
   </div>
